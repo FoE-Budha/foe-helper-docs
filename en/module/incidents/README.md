@@ -2,6 +2,8 @@
 description: This module shows which incidents are currently available in your city for collection. 
 ---
 
+# Incidents
+
 ![Icon](./.images/icon.png)
 
 ## Menu Overview

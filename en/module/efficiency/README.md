@@ -2,9 +2,9 @@
 description: Compare and evaluate special buildings based on customized efficiency criteria.
 ---
 
-![Icon](./.images/icon.png) 
-
 # Buildings Efficiency Rating
+
+![Icon](./.images/icon.png) 
 
 Compare special buildings based on daily output per tile, using your own priorities and expectations. This tool helps you determine which buildings are most efficient for your city layout and strategic goals.
 

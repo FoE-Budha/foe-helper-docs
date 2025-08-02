@@ -3,6 +3,7 @@ description: This tool helps you level your Great Buildings using a 1.9 support 
 ---
 
 # GB Calculator
+
 ![Icon](./.images/icon.png)
 
 It calculates how many Forge Points (FPs) you need to invest to secure supporter spots, allows you to copy contribution values to the clipboard for sharing in chat, and checks if supporters have contributed correctly. 

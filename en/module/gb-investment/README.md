@@ -2,9 +2,11 @@
 description: This overview helps to compare the Return on Investment (ROI) of Great Buildings (GBs) 
 ---
 
+# GB Investment
+
 ![Icon](./.images/icon.png)
 
-# Menu Overview
+## Menu Overview
 
 ![GB Investment overview](./.images/menu-layout.png)
 
@@ -36,6 +38,6 @@ By inputting a value, conversion in parentheses will update eg. 0.5 FP per good 
  - **FP Costs for goods**: Manual input: total FP value of goods needed to level the GB
  - **Chevron**: Displays a detailed breakdown of levels above the targeted level.
 
-# Usage
+## Usage
 
 The **GB Investment Overview** tool is designed to compare the ROI of GBs and helps prioritize which GBs to level first, based on efficiency. The GBs are ranked by break-even time, with the best value ones at the top. GBs that produce goods or increase attack are evaluated in FP terms for ROI.
