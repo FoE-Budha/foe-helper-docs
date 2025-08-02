@@ -2,12 +2,12 @@
 
 * [Home](/en/README.md)
 
-* [Installazione](it/installazione/installazione.md)
+* [Installazione](installazione/installazione.md)
 
-* [Sito](it/sito/README.md)
-	* [Mappa della città](it/sito/mappacitta/README.md)
+* [Sito](sito/README.md)
+	* [Mappa della città](sito/mappacitta/README.md)
 
-* [Aiuto](it/guida/README.md)
-  * [Github](it/guida/github.md)
-  * [Markdown](it/guida/markdown.md)
-  * [Scrittura della documentazione](it/guida/documentazione.md)
+* [Aiuto](guida/README.md)
+  * [Github](guida/github.md)
+  * [Markdown](guida/markdown.md)
+  * [Scrittura della documentazione](guida/documentazione.md)
