@@ -24,7 +24,9 @@ The main screen is composed of the following elements:
     - **Value/tile**: Toggle between **Value/tile** and **Summarized Productions** views.
     - **Hide items**: Toggle to show/hide building reward **Items** column from the **Table view**.
     - **Search field**: Highlight searched buildings by name.
-    {% hint style="sucess" %}Enable Only highlights to narrow the list to only matching buildings.{% endhint %}
+    {% hint style="sucess" %}
+    Enable Only highlights to narrow the list to only matching buildings.
+    {% endhint %}
     - **Only highlights**: Toggle to filter only highlighted buildings. (explained under [Highlighting and Selection](#highlighting-and-selection)).
     - **Inventory**: Toggle to include buildings available in inventory in **Table view**.
     - **Minimum Score**: Includes only inventory buildings scoring above a set threshold in the list.
@@ -37,7 +39,9 @@ The main screen is composed of the following elements:
       - Blue: Score for buildings added from [building selection menu](#add-building) menu.
     - **Building**:
       - **Name, level and Era** of the building.
-      {% hint style="info" %}For multiple buildings, only one era is displayed. Check [City Map](../town/README.md#main-city-side-menu) for details.{% endhint %}
+      {% hint style="info" %}
+      For multiple buildings, only one era is displayed. Check [City Map](../town/README.md#main-city-side-menu) for details.
+      {% endhint %}
       - **Size**: Filters buildings by selected sizes.
     - **Amount**: Number of buildings placed in your city.
     - **Inventory**: Displays ✔ if building is available in inventory. (explained under [Inventory Building Tooltip](#inventory-building-tooltip)).
