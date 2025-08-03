@@ -51,11 +51,14 @@
     * [Scouting Info](module/scouting/README.md)
     * [Settings](module/settings/README.md)
     * [Army Advice](module/army-advice/README.md)
-  * [Website](website/README.md)
-    * [Account](website/Account/README.md)
-    * [CityMap](website/citymap/README.md)
-  * [Helping out](guide/README.md)
-    * [Github](guide/github.md)
-    * [Markdown](guide/markdown.md)
-    * [Writing documentation](guide/documentation.md)
-  * [Api Token](guide/api-token.md)
+
+* [Website](website/README.md)
+  * [Account](website/Account/README.md)
+  * [CityMap](website/citymap/README.md)
+
+* [Helping out](guide/README.md)
+  * [Github](guide/github.md)
+  * [Markdown](guide/markdown.md)
+  * [Writing documentation](guide/documentation.md)
+
+* [Api Token](guide/api-token.md)
