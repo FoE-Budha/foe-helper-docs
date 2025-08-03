@@ -1,23 +1,21 @@
 # Table of contents
 
 * [Home](README.md)
-
 * [Installation](installation/installing.md)
-
 * [Modules](module/README.md)
-  * City Improvements    
+  * [City Improvements](module/city-improvements/README.md)
     * [Building Efficiency Rating](module/efficiency/README.md)
     * [Sets, Upgrades & Kits](module/kits/README.md)
     * [Production Overview](module/production/README.md)
     * [Reconstruction Size List](module/reconstruction/README.md)
     * [Town Overview](module/town/README.md)
-  * GBs
+  * [GBs](module/gbs/README.md)
     * [FP Investments](module/fp-investments/README.md)
     * [GB Calculator](module/gb-calculator/README.md)
     * [GB Cost Calculator](module/gb-cost/README.md)
     * [GB Investment](module/gb-investment/README.md)
     * [GB Tracker](module/tracker/README.md)
-  * Feature Enhancers
+  * [Feature Enhancers](module/feature-enhancers/README.md)
     * [Ally Overview](module/ally/README.md)
     * [Aztec Helper](module/aztec/README.md)
     * [Guild Battleground (GBG)](module/battleground/README.md)
@@ -25,19 +23,18 @@
     * [Market Filter](module/market/README.md)
     * [Merger Game](module/mergergame/README.md)
     * [Negotiation Helper](module/negotiation/README.md)
-      province-buildings
     * [Settlements Overview](module/settlements/README.md)
     * [Technology (Tech) Tree](module/tech-tree/README.md)
-  * Statistics    
+  * [Statistics](module/statistics/README.md)
     * [FP Collector Overview](module/collector/README.md)
-    * [GBG Overview ](module/gbg-players/README.md)
+    * [GBG Overview](module/gbg-players/README.md)
     * [GE Results](module/gex/README.md)
     * [Guild Member Overview](module/members/README.md)
     * [Motivate/Polish Helper](module/motivate/README.md)
     * [PvP Arena Overview](module/pvp-arena/README.md)
     * [QI Overview](module/qi-players/README.md)
     * [Statistics](module/stats/README.md)
-  * Misc
+  * [Misc](module/misc/README.md)
     * [Alerts](module/alerts/README.md)
     * [Battle Potions](module/potions/README.md)
     * [Castle System](module/castle/README.md)
@@ -54,14 +51,11 @@
     * [Scouting Info](module/scouting/README.md)
     * [Settings](module/settings/README.md)
     * [Army Advice](module/army-advice/README.md)
-
   * [Website](website/README.md)
     * [Account](website/Account/README.md)
     * [CityMap](website/citymap/README.md)
-
   * [Helping out](guide/README.md)
     * [Github](guide/github.md)
     * [Markdown](guide/markdown.md)
     * [Writing documentation](guide/documentation.md)
-
   * [Api Token](guide/api-token.md)
