@@ -1,7 +1,9 @@
 # Table of contents
 
 * [Home](README.md)
+
 * [Installation](installation/installing.md)
+
 * [Modules](module/README.md)
   * [City Improvements](module/city-improvements/README.md)
     * [Building Efficiency Rating](module/efficiency/README.md)

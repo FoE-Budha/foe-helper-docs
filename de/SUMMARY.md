@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Home](/en/README.md)
-
-## Deutsch
+* [Home](README.md)
 
 * [Installation](installation/installation.md)
 
