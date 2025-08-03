@@ -7,6 +7,8 @@ description: >-
 
 **FoE Helper** ist eine Browser-Erweiterung – entwickelt von Spielern für Spieler – die das Forge of Empires (FoE) Spielerlebnis verbessert. Sie bietet verschiedene Werkzeuge und Funktionen, um Aufgaben wie die Optimierung deiner Stadt, das Berechnen von Gebäudekosten, das Verfolgen von Gildenmitgliedern und die Verwaltung deines Accounts zu erleichtern.
 
+Das aktuelle Änderungsprotokoll kann [hier](https://foe-helper.com/extension/update?v=&lang=de) eingesehen werden.
+
 > _„Schmiede klüger, nicht härter – mit FoE Helper.“_ 💡
 
 ## 📚 Hilfe beim Einstieg?
