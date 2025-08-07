@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Home](home/README.md)
 
 * [Installation](installation/installing.md)
 
@@ -56,11 +56,10 @@
 
 * [Website](website/README.md)
   * [Account](website/Account/README.md)
+  * [Api Token](website/api/api-token.md)
   * [CityMap](website/citymap/README.md)
 
 * [Helping out](guide/README.md)
   * [Github](guide/github.md)
   * [Markdown](guide/markdown.md)
   * [Writing documentation](guide/documentation.md)
-
-* [Api Token](guide/api-token.md)
