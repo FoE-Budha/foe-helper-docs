@@ -26,14 +26,14 @@ The interface includes:
 
 The configuration menu allows you to:
 
-- **open overview after update** automatically open this window when you open "Your Guild" in the general menu
-- **show searchbar** toggles searbar on tabs
-- **show ex-members**
-- **show 0-values (GE/GBG)** highlight players with 0 values in both
-- **GE/GBG date format** choose display format
-- **delete ex-member after**
-- **reset message counter**
-- **export data** export file name includes the tab name (in English), current date, and time.
+- **open overview after update**: if enabled, automatically open this window when you open **Your Guild** in the game menu ([keyboard shortcut](https://en.wiki.forgeofempires.com/index.php?title=Keyboard_shortcuts) ""G")
+- **show searchbar**: toggles searhbar on tabs
+- **show ex-members**: toggles searhbar on tabs
+- **show 0-values (GE/GBG)**: highlight players with 0 values in both
+- **GE/GBG date format**: choose display format for seasons
+- **delete ex-member after**: define data retention for ex-members
+- **reset message counter**: toggle to yes to reset message counter
+- **export data**: exports data into file named by tab name (in English), date, and time of export.
 
 {% hint style="warning" %}
 The Export button (CSV or JSON) exports only the data shown in the currently active tab.
@@ -45,9 +45,9 @@ The Export button (CSV or JSON) exports only the data shown in the currently act
 - Data is refreshed when:
   - You open in-game Guild Menu (shortcut "G"), tab Member Overview 
   - You open in-game Guild Menu (shortcut "G"), tab Guild Treasury
-  - You visit a guildmate's city (eg. Great)
+  - You visit a guildmate's city (eg. Great Buildings)
   - You enter the [Guild Expedition](../gex/README.md#recording-data) screen
-  - You open Guild Battlegrounds screen
+  - You open [Guild Battlegrounds](../gbg-players/README.md#recording-data) screen
 - Changes are based on your last local update on the same computer.
 
 ## Tabs
@@ -64,18 +64,37 @@ Available tabs:
 ![Members Overview](./.images/guild-members.png)
 
 Members Overview displays following:
-- Points: Increases in player points since the last update are shown in green; decreases in red. (3)
-- Battles: Increases in player points since the last update are shown in green; decreases in red. (3)
-- Era: Players era
-- GE/GBG Participation:
-  - Click the **chevron** on a member’s row to expand their participation details. (1)
-  - Data covers all retained history on your PC.
-  - A pencil icon allows you to delete a week's result.
-- Buildings producing Guild goods: Click the **chevron** to expand list(2)
+- **Points**: Players points and change since the last update shown. (1)
+  - Green: Increase in points
+  - Red: Decrease in points
+- **Battles**: Players number of battles and change since the last update. (2)
+  - Green: Increased number of battles
+- **Era**: Players era
+- **Activity Status**: Players activity status. (3)
+  - Yellow: Absent up to 3 days
+  - Red: Absent over 3 days
+  - Number in brackets: Number of days player was absent
+- **GE/GBG** Participation
+- **Chevron**: Clicking the **chevron** on a member’s row expands to [detailed overview](#members-detailed-view)
+- **Strikethrough**: If enabled, Departed members will appear with strikethrough and without rank number. (5)
+
+
+#### Members Detailed View
+
+![Members Detailed Overview](./.images/guild-members-detailed.png)
+
+By clicking on the chevron at the right end of a member's row, you can expand to detailed overview of:
+  - **Inactivity**: Displaying days when player was inactive (If applicable)
+  - **GE**: Displaying GE performance per season for selected player
+  - **GbG**: Displaying GBG performance per season for selected player
+  - **Guild supporting Buildings**: Displays guild supporting productions
+    - Clicking on the chevron, this table expands additionaly to display Guild Goods and Guild Power productions
 
 {% hint style="info" %}
-Departed members appear with strikethrough and without rank number.
+Data covers all retained history on your PC.
 {% endhint %}
+
+The pencil in the upper right corner of tables allows you to open edit mode and to delete any week of results. A warning message will be displayed before granting you access to delete.
 
 ### Eras
 
@@ -97,18 +116,19 @@ Displays the overview of Great Buildings available, players and levels range.
 
 Displays for each Great Building:
 
-- **(Available)**: Number of players with the GB
-- **(Min Level)**: Lowest level found
-- **(Max Level)**: Highest level found
+- **Great Building**: Name of Great Building
+- **Available**: Number of Great Buildings available in Guild
+- **Min Level**: Lowest level found
+- **Max Level**: Highest level found
 
 Use the chevron to expand to detail view for each GB displaying following data:
 
-- **Player**: Name of players having GB
-- **(Level)**: Current level
-- **(Unlocked to)**: Max level unlocked
-- **(FP Invested)**: FP already placed
-- **(FP Needed)**: Remaining FP to complete level  
-- **list**: Players which **don’t own** this GB.
+- **Player**: Names of players having GB
+- **Level**: Current level of GB
+- **Unlocked to**: Max level unlocked
+- **FP Invested**: FP already invested
+- **FP Needed**: Remaining FP to complete level  
+- **Members without**: List of players which **don’t own** this GB.
 
 #### GB Detailed View
 

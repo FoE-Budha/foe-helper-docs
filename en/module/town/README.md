@@ -21,7 +21,7 @@ The **Town Overview** is structured from top to bottom as follows:
 
 Header menu enables you to:
 - **Change View**: Toggle between **Isometric View** (as in-game) and **Standard Grid View**
-- **Zoom in and out**: dropdown to inspect specific areas
+- **Zoom in and out**: dropdown to selected specific zoom level for city map
 - [**Search Building**](#search-for-buildings) (available only in main city)
 - [**Copy city data**](#copy-city-layout-data) (available only in main city)
 - [**City planner**](#export-to-website) (available in main city and [Settlements module](../settlements/README.md#city-planner-integration))
@@ -56,7 +56,7 @@ Side menu updates data based on current in-game active map:
 ![Main City Side Menu](./.images/side-menu-main.png)
 
 Checkboxes allow you to quickly highlight specific buildings:
-- **Highlight lower era buildings** and displays number of buildings per lower era
+- **Highlight lower era buildings** and display number of buildings per lower era
 - **Highlight buildings that do not need streets** to purple color
 - **Highlight ascendable buildings** to orange color
 - **Highlight decayed buildings** that where previously ascended (eg. Forgotten Temple)
@@ -84,11 +84,11 @@ Quantum Incursions Side Menu displays summary of QI resources and boosts produce
 
 ## FAQ
 
-**Q: Can I edit my city in this module?**<br>  
+**Q: Can I edit my city in this module?**<br>
 A: No, editing is done after exporting to the website planner.
 
-**Q: Can FoE Helper rearrange my city based on import from other tool?**<br>  
+**Q: Can FoE Helper rearrange my city based on import from other tool?**<br>
 A: No, in-game rearranging must be done manually.
 
-**Q: Does this show building bonuses or stats?**<br> 
+**Q: Does this show building bonuses or stats?**<br>
 A: Only in QI map. Bonuses for main city are shown in other modules.
