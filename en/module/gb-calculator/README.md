@@ -18,10 +18,10 @@ The Self-Contribution Calculator interface is structured top-to-bottom as follow
   - **Building name**
   - **Owner info** including a link to the player's page on [foe.scoredb.io](https://foe.scoredb.io/)
   - **Current level & target level** – Use the arrow to simulate future levels
-  - **Buttons to toggle reward percentages**
+  - **Buttons to toggle investment percentages**
 
 ### Table breakdown:
-  - **Sequence** – Who contributes when; e.g., owner starts with 28,862 FP to secure 1st and 2nd places
+  - **Sequence** – Who contributes when; e.g., owner starts with 28,862 FP to secure 1st and 2nd place
   - **FPs** – Required contribution
   - **Done** – Already contributed amount
   - **Blueprints** – Received from contribution with current Arc bonus
@@ -31,8 +31,8 @@ The Self-Contribution Calculator interface is structured top-to-bottom as follow
 
 ### Key values:
   - **Existing Contributions**
-    - **Secure** – Contributions from others will be assigned to the matching position and secured automatically (default setting)
-    - **Trust** – Assumes other contributors won’t overtake each other or new supporters (use cautiously)
+    - **Secure** – Contributions from others will be assigned to the matching position and secured automatically
+    - **Trust** – Assumes contributors already on GB won’t overtake each other or new supporters
   - **Others to Add** – Total FPs to be contributed by supporters
   - **Owner to Add** – Total FPs you need to contribute
   - **Total FPs Required** – Combined supporter + self-contribution needed fo selected level
@@ -45,7 +45,7 @@ The Self-Contribution Calculator interface is structured top-to-bottom as follow
 {% hint style="info" %}
 **No spot safe** If there are no secured spots, info is shown instead of **Copy Values** button
 {% endhint %}
-  - **Powerleveling** – Opens the Powerleveling dialog (explained below)
+  - **Powerleveling** – Opens the [Powerleveling dialog](#powerleveling)
 
 ## Configuration
 
@@ -91,18 +91,12 @@ The Copy Function interface is structured top-to-bottom as follows:
   - Owner's Contribution (OC amount)
   - P(xx) (if selected, adds "P" in front of spot number)
   - Danger (if selected, adds Prefix or Suffix to copied text)
-  
-{% hint style="info" %}
-Preview of all above settings is available at bottom of menu
-{% endhint %}
-
-  
 - **Places** – Select which spots to announce:
   - Individual checkboxes for P1–P5
   - **All** – Selects all P1–P5 spots, regardless of status
   - **Auto** – Selects only secure and unoccupied spots
   - **Auto + Not locked** – Selects all unoccupied spots (even if not secure)
-- **Preview** – Shows a preview of the generated text
+- **Preview** – Shows a preview of the generated text based on chosen settings
 - **Copy Values** – Copies the text to the clipboard for chat
 - **Note** – Collect multiple entries from various GBs to paste together
 
@@ -127,6 +121,7 @@ Features:
 
 ## Usage
 
+### Regular
 As soon as you start investing Forge Points into your GB, the calculator will recognize it.  
 Once you've contributed some FPs, they will appear under **Done**. 
 For example, after contributing 19,476 FP, continue until the value under **FPs** in the first row reaches 0 (to be added by owner 28,862 FPs)
@@ -151,3 +146,26 @@ In that case, a red warning message appears:
 In the example below, a sniper could profit **327 FP**. You would need to contribute those yourself to secure the spot:
 
 ![Danger Warning](./.images/over-contributed.png)
+
+### Secure
+
+With the secure checkmark , the spaces are first secured before being given to patronage. If amounts are already placed, they occupy the spaces whose amount placed allows them to be obtained without additional security.
+
+In this example, you still need to place 362 PF to secure Place 1 and Place 2.
+
+
+
+### Trust
+
+With the trust check mark , we assume that the amounts placed will remain the same. Because they are placed by trusted people. In this case, the excess amounts placed are used to reduce the cost of securing Place 1 and Place 2.
+
+In this example, it only takes 237 FP (instead of 362 above) to secure Place 1 and Place 2. Note that the rest of the FP are placed at the end. This can still make the GM snippable as in this example. There are 150 FP left to place and Place 3 is only at 125.
+
+As an example, here is the same image again with the two checkmarks secure and **trust** and also without any checkmark at all.
+
+### Ext
+
+If someone owes you PF, you can enter the total amount they will pay you and see how much you need to secure the spot so as not to endanger your GM.
+
+In the example, you will be paid 1000 PF for Place 3, which means that P3 only needs to be secured at 343 PF instead of 779.
+

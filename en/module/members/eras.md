@@ -1,5 +1,5 @@
 ---
-description: Displays complete guild member information, including GBs, treasury stock, guild buildings, and participation stats.
+description: Displays complete overview per era.
 ---
 
 # Eras
@@ -7,6 +7,12 @@ description: Displays complete guild member information, including GBs, treasury
 Displays the number of members per era, total points, and treasury resources by era. 
 
 ![Era Summary](./.images/menu-era.png)
+
+Era summary displays following:
+
+- Number of Guild Members in Era
+- Treasury Goods stocks summarized ammount
+- Points sumarized for that era
 
 Expanding to detailed overview displays which players are in specific era, and amount of each goods in treasury for that era. That can be achieved by:
 1. Clicking the chevron for detailed view for specific era.

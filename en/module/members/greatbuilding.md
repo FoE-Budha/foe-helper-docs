@@ -1,5 +1,5 @@
 ---
-description: Displays complete guild member information, including GBs, treasury stock, guild buildings, and participation stats.
+description: Displays complete overview of Great Buildings in guild.
 ---
 
 # Great Buildings

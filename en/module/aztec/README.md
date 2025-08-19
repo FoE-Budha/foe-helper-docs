@@ -45,3 +45,9 @@ Here are a few gameplay examples using the assistant:
 - Use the color indicators to **maximize your chances** of uncovering rewards.
 - The assistant updates **dynamically** with each tile click.
 - If you're unsure where to click next, choose the **greenest adjacent tile**.
+
+## Settings
+
+![Settings](./.images/settings-menu.png)
+
+In the extension [settings](../settings/README.md#pop-ups-tab), you can choose whether the Aztecs Mini-Game Helper should launch automatically when Aztecs Mini-Game is launched.

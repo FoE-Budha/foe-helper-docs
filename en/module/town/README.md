@@ -65,7 +65,7 @@ Checkboxes allow you to quickly highlight specific buildings:
 The legend shows color coding, building classification, the number of squares each consumes, and their percentage share in the overall city layout.
 
 {% hint style="success" %}
-Hi, would this claim be correct "Road efficiency is calculated by dividing **half the minimum required number** of road tiles (assuming each building connects along its shortest side, and two buildings share a road) by the **actual number of road tiles used**."<br>
+Road efficiency is calculated by dividing **half the minimum required number** of road tiles (assuming each building connects along its shortest side, and two buildings share a road) by the **actual number of road tiles used**."<br>
 Road efficiency = (minimum required road tiles ÷ 2) ÷ actual road tiles used
 {% endhint %}
 

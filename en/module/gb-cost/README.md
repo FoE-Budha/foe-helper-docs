@@ -48,7 +48,7 @@ Each button has an X to remove it, except your Arc bonus %.
 {% endhint %}
 
 - **New Value** - Allows you to input a custom percentage manually. The green “+” button adds your custom percentage to the list above.
-- **Save donation factor per Conversation** - When enabled, your default investment % factor is defined by % you used last time in that conversation (thread).
+- **Save donation factor per Conversation** - When enabled, your default investment % factor is defined by % you used last time in specific conversation (thread).
 - **Save Button** - Applies and saves all the above settings.
 
 ## Usage

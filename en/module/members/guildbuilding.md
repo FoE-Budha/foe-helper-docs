@@ -1,15 +1,16 @@
 ---
-description: Displays complete guild member information, including GBs, treasury stock, guild buildings, and participation stats.
+description: Displays complete overview of guild goods buildings.
 ---
 
 # Guild Buildings
 
-Displays the overview of Guild Goods producing buildings available.
+The Guild Buildings Overview tab displays detailed information about available buildings producing Guild Goods.
 
 ## Guild Building Summary
 
 ![Guild Buildings](./.images/menu-guild-buildings.png)  
-Displays:
+
+Guild Buildings summary displays following:
 
 - Number of each guild goods producing building
 - Resources produced (if motivated/collected by players)
@@ -19,8 +20,10 @@ Displays:
 By clicking on **Change view** button, detailed view is displayed.
 
 ![Building Detail](./.images/menu-guild-buildingsv2.png)  
+
 Displays for each building:
 
+- Level of building
 - Owner
 - Era of member or building
 - Collected amount of resources

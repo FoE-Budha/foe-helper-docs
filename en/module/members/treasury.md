@@ -1,15 +1,17 @@
 ---
-description: Displays complete guild member information, including GBs, treasury stock, guild buildings, and participation stats.
+description: Displays complete treasury overview.
 ---
 
 # Treasury Goods
 
-![Treasury](/fr/module/membres/.images/Tresorie.png)
+The Treasury Goods Overview tab displays detailed information about your guild treasury stocks, potential daily production, and number of players per era.
 
-Displays:
+![Treasury](./.images/menu-treasury.png)
 
-- Resources generated per day by all guild buildings
+Treasury tab displays following:
+
 - Number of guild members in that era
+- Resources generated per day by all guild buildings
 - Total stock of guild treasury  
 
 {% hint style="warning" %}

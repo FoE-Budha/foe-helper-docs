@@ -9,7 +9,7 @@ description: Summarizes cumulative resource requirements to unlock the technolog
 The **Technology Tree** module displays the total amount of resources needed to unlock all technologies up to a selected era. It is especially useful for planning resource needs across multiple future eras.
 
 {% hint style="warning" %}
-You must open the in-game Technology Tree in Forge of Empires before launching this module for data to load correctly.
+You must open the in-game Technology Tree in Forge of Empires before launching this module for data to load correctly. [R key](https://en.wiki.forgeofempires.com/index.php?title=Keyboard_shortcuts)
 {% endhint %}
 
 ## Menu Overview
@@ -29,7 +29,6 @@ The layout of the Technology Tree module is composed of:
 The configuration menu allows you to:
 
 - Export the cumulative resource requirements to a `.csv` or `.json` file.
-- Useful for planning outside the game or sharing with others.
 
 ## Era Selection and Options
 

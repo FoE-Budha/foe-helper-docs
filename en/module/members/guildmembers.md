@@ -1,12 +1,15 @@
 ---
-description: Displays complete guild member information, including GBs, treasury stock, guild buildings, and participation stats.
+description: Displays complete guild member information and participation stats.
 ---
 
-## Guild Members
+# Guild Members
+
+The Guild Member Overview tab displays detailed information about your guildmates, including their points and battle changes, activity status, guild goods buildings, and their performance in GE and GBG.
 
 ![Members Overview](./.images/guild-members.png)
 
 Members Overview displays following:
+
 - **Points**: Players points and change since the last update shown. (1)
   - Green: Increase in points
   - Red: Decrease in points
@@ -18,15 +21,16 @@ Members Overview displays following:
   - Red: Absent over 3 days
   - Number in brackets: Number of days player was absent
 - **GE/GBG** Participation
-- **Chevron**: Clicking the **chevron** on a member’s row expands to [detailed overview](#members-detailed-view)
+- **Chevron**: Clicking the **chevron** on a member’s row expands to [detailed overview](#members-detailed-view) (4)
 - **Strikethrough**: If enabled, Departed members will appear with strikethrough and without rank number. (5)
 
 
-#### Members Detailed View
+## Members Detailed View
 
 ![Members Detailed Overview](./.images/guild-members-detailed.png)
 
 By clicking on the chevron at the right end of a member's row, you can expand to detailed overview of:
+
   - **Inactivity**: Displaying days when player was inactive (If applicable)
   - **GE**: Displaying GE performance per season for selected player
   - **GbG**: Displaying GBG performance per season for selected player
