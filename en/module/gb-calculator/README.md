@@ -42,6 +42,7 @@ The Self-Contribution Calculator interface is structured top-to-bottom as follow
   - **Active Recurring Quest (RQs)** indicator of active RQ, with amount needed for RQ to be completed
   - **Remaining FPs to level** – FPs still needed to level the GB
   - **Copy Values** - Allows you to copy contribution values to the clipboard for sharing in chat
+  - **Note** - Allows you to copy contribution values for **mutiple buildings** to the clipboard for sharing in chat
 {% hint style="info" %}
 **No spot safe** If there are no secured spots, info is shown instead of **Copy Values** button
 {% endhint %}
@@ -124,18 +125,20 @@ Features:
 ### Regular
 As soon as you start investing Forge Points into your GB, the calculator will recognize it.  
 Once you've contributed some FPs, they will appear under **Done**. 
-For example, after contributing 19,476 FP, continue until the value under **FPs** in the first row reaches 0 (to be added by owner 28,862 FPs)
-After the contribution of the remaining value, P1 and P2 will be secure and can be filled by others.
+For example, after contributing `4,673` FP's, continue until the value under **FPs** in the first row reaches 0 (to be added by owner `269` FP's)
+After the contribution of the remaining value, P1 and P2 will be secure and can be taken by others.
 
-![Layout](./.images/contributing.png)
+![Layout](./.images/usage-step-one.png)
 
-Next, continue with the next row (e.g., 604 FP). Always go in order — top to bottom — to ensure the GB remains secure from sniping:
+After spots are taken, amounts will apear under **Done**, and you can continue with the next row (e.g., 700 FP) to secure following spot. Always go in order — top to bottom — to ensure the GB remains secure from sniping:
 
-![Contribution 2](./.images/contributing-step-two.png)
+![Contribution 2](./.images/usage-step-two.png)
 
+
+### Danger
 
 {% hint style="warning" %}
-If a Donator overpays or your GB is in the "push zone" (roughly levels 30–60), where no self-contribution is required to secure places, Donator spots may be vulnerable.
+If an Investor or you overpays, or your GB is in the "push zone" (roughly levels 30–60), where no self-contribution is required to secure places, Investors spots may be vulnerable.
 {% endhint %}
 
 A sniping attacker could claim a spot by contributing less than the required amount and still not be overtaken.
@@ -143,29 +146,32 @@ A sniping attacker could claim a spot by contributing less than the required amo
 In that case, a red warning message appears:  
 **danger (xxFP)** – showing how much profit a sniper would gain.
 
-In the example below, a sniper could profit **327 FP**. You would need to contribute those yourself to secure the spot:
+In the example below, a sniper could profit **19 FP**. If sniped, you would need to contribute additionally to secure next spot:
 
-![Danger Warning](./.images/over-contributed.png)
+![Danger Warning](./.images/usage-step-danger.png)
 
 ### Secure
 
-With the secure checkmark , the spaces are first secured before being given to patronage. If amounts are already placed, they occupy the spaces whose amount placed allows them to be obtained without additional security.
+With the secure checkmark, the spots are calculated to be secured first before being given to Investors. If amounts are already placed, they will be asigned to spots matching your contribution requirements.
 
-In this example, you still need to place 362 PF to secure Place 1 and Place 2.
+In example bellow, we can notice that when **Secure** is checked you still need to place `368` FP's to secure spot 4.
 
-
+![Without Secure checkmark](./.images/usage-no-secure.png)
+![With Secure checkmark](./.images/usage-secure.png)
 
 ### Trust
 
-With the trust check mark , we assume that the amounts placed will remain the same. Because they are placed by trusted people. In this case, the excess amounts placed are used to reduce the cost of securing Place 1 and Place 2.
+With the trust check mark , we assume that the amounts posted by players will remain the same. Because they are posted by trusted people. In this case, the excess amounts placed are used to reduce the owner contribution of securing higher spots.
 
-In this example, it only takes 237 FP (instead of 362 above) to secure Place 1 and Place 2. Note that the rest of the FP are placed at the end. This can still make the GM snippable as in this example. There are 150 FP left to place and Place 3 is only at 125.
+In example bellow, it only takes `330` FP's (instead of `368`) to secure spot 4 when **Trust** is checked. Note that difference is calculated into owner contribution for securring spot 5. 
 
-As an example, here is the same image again with the two checkmarks secure and **trust** and also without any checkmark at all.
+![Without Trust](./.images/usage-secure.png)
+![With Trust](./.images/usage-trust.png)
 
 ### Ext
 
-If someone owes you PF, you can enter the total amount they will pay you and see how much you need to secure the spot so as not to endanger your GM.
+If someone owes you FPs, you can enter the total amount they will pay you and see how much you need to add to secure the spot and not to endanger your GB by making it snipible.
 
-In the example, you will be paid 1000 PF for Place 3, which means that P3 only needs to be secured at 343 PF instead of 779.
+In the example below, you will be paid 200 FPs for Place 4, which means that `272` FP's needs to added for investment to be secured at spot 4.
 
+![Ext With Secure](./.images/usage-ext-secure.png)
