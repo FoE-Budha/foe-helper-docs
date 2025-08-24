@@ -156,17 +156,17 @@ With the secure checkmark, the spots are calculated to be secured first before b
 
 In example bellow, we can notice that when **Secure** is checked you still need to place `368` FP's to secure spot 4.
 
-![Without Secure checkmark](./.images/usage-no-secure.png)
 ![With Secure checkmark](./.images/usage-secure.png)
+![Without Secure checkmark](./.images/usage-no-secure.png)
 
 ### Trust
 
 With the trust check mark , we assume that the amounts posted by players will remain the same. Because they are posted by trusted people. In this case, the excess amounts placed are used to reduce the owner contribution of securing higher spots.
 
-In example bellow, it only takes `330` FP's (instead of `368`) to secure spot 4 when **Trust** is checked. Note that difference is calculated into owner contribution for securring spot 5. 
+In example bellow, it only takes `330` FP's (instead of `368`) to secure spot 4 when **Trust** is checked, trusting that player on spot 5 wont add more than what has posted. Note that difference is calculated into owner contribution for securring spot 5.
 
-![Without Trust](./.images/usage-secure.png)
 ![With Trust](./.images/usage-trust.png)
+![Without Trust](./.images/usage-secure.png)
 
 ### Ext
 
